@@ -54,5 +54,4 @@ class StatsAlerter:
       self.lst[1].ledGlows=True
 
 
-if __name__ == "__main__":
-  unittest.main()
+unittest.main()
