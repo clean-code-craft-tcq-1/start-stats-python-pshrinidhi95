@@ -34,11 +34,11 @@ class StatsTest(unittest.TestCase):
     self.assertTrue(emailAlert.emailSent)
     self.assertTrue(ledAlert.ledGlows)
 
-class EmailAlert():
+class EmailAlert:
   emailSent = False
 
 
-class LEDAlert():
+class LEDAlert:
  ledGlows = False
 
 
